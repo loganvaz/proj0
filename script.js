@@ -11,4 +11,7 @@ const uncheckedCountSpan = document.getElementById('unchecked-count')
 
 function newTodo() {
   alert('New TODO button clicked!')
+  list.add("next TODO");
+  
+  
 }
